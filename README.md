@@ -36,3 +36,5 @@ The repository contains a simple setup of Cloudera stack components to demonstra
 
 # Validate if SRM shows data flowing through to DR site (MY)
 ![Validate replication](images/srm-monitor.png)
+
+This project is based on excerpts from the CDH based workshop: https://github.com/rajatrakesh/CDF-CDH-Workshop/
