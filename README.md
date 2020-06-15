@@ -22,7 +22,7 @@ The use-case looks like the below:
 
 
 # Setup Nifi on the SG cluster
-* Import Nifi Template: cdp-streaming-demo/nifi-template/CDF-lab.xml
+* Import Nifi Template: cdp-streaming-demo/nifi-template/meetup-stream.xml
 * Go to ConnectWebSocket processor and enable JettyWebSocketClient. This will enable connecting to meetup.com and will stream messages
 * Go to UpdateHTTP processor and update the “Remote URL” to point to your private IP
     * Example: `http://10.0.1.100:9999/?properties=%7B%22annotators%22%3A%22sentiment%22%2C%22outputFormat%22%3A%22json%22%7D`
