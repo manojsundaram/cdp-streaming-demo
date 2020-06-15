@@ -1,9 +1,12 @@
 # cdp-streaming-demo
-* Clone this repository to /root
+The repository contains a simple setup of Cloudera stack components to demonstrate a simple streaming use-case.
 
+The use-case looks like the below:
+![scenario](images/srm-scenario.png)
+
+* Clone this repository to /root & run the below as the root user
 * Setup the environment for the coreNLP project to run & download spark dependency jar files from maven
 `/root/cdp-streaming-demo/scripts/00_config_demo.sh`
-
 * Run the NLP application: `/root/workflow-deployment/start_nlp_engine.sh`
 
 # Setup SRM
@@ -33,5 +36,5 @@
 `/root/cdp-streaming-demo/scripts/kafka-helpers/srm-replicate.sh meetup_comment_ws`
 
 
-# Validate if SRM shows data flowing through the DR site (MY)
+# Validate if SRM shows data flowing through to DR site (MY)
 ![Validate replication](images/srm-monitor.png)
