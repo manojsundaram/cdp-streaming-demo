@@ -1,7 +1,7 @@
 # cdp-streaming-demo
 The repository contains a simple setup of Cloudera stack components to demonstrate a simple streaming use-case.
 
-The use-case looks like the below:
+<b>The use-case looks like this:
 ![scenario](images/srm-scenario.png)
 
 * Clone this repository to /root & run the below as the root user
