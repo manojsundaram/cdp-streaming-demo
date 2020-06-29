@@ -13,6 +13,8 @@ The repository contains a simple setup of Cloudera stack components to demonstra
 - Configure SRM as below
 
 ![SRM Configs](images/SRM-configs.png)
+- Set Metrics replication factor to 1: metrics.topic.replication.factor
+
 
 # Setup SMM
 - Enable `streams.replication.manager.configure`
