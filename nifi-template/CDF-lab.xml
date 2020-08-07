@@ -1379,7 +1379,7 @@
                     </entry>
                     <entry>
                         <key>topic</key>
-                        <value>meetup-data/value>
+                        <value>meetup_comment_ws</value>
                     </entry>
                     <entry>
                         <key>acks</key>
